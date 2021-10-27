@@ -1,0 +1,67 @@
+body {
+    background-size: cover;
+    background-color: rgb(199, 207, 224);
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.contactInfo{
+    width: 45%;
+    background-color:rgba(70, 131, 180, 0.5);
+    padding-top: 5px;
+    padding-bottom: 25px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    padding-left: 20px;
+}
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
+input {
+    width: 45%;
+    height: 30px;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 2px solid rgb(131, 129, 129);
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+::placeholder {
+    color:rgba(89, 90, 92, 0.856)
+}
+textarea {
+    width: 45%;
+    height: 150px;
+    padding: 7px;
+    box-sizing: border-box;
+    border: 2px solid rgb(131, 129, 129);
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+input[type=submit] {
+    background-color: rgba(125, 126, 128, 0.534);
+    border: 2px solid rgb(131, 129, 129);
+    font-weight: bold;
+    color: white;
+}
+input[type=submit]:hover {
+    background-color: steelblue;
+}
+a:link {
+    color:rgba(2, 2, 2, 0.85);
+}
+a:visited {
+    color: rgba(78, 67, 107, 0.85);
+}
+a:active {
+    color: rgba(255, 250, 250, 0.85);
+}
+a:hover {
+    color: rgb(65, 29, 163);
+}
