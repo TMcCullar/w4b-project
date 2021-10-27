@@ -5,7 +5,6 @@ body {
     background-image: url(/images/fabian-gieske-cbIKeuURaq8-unsplash.jpg);
     /*Photo credit: Photo by <a href="https://unsplash.com/@fbngsk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Fabian Gieske</a> on <a href="https://unsplash.com/s/photos/paw-print-background?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>*/
     background-size: cover;
-    background-color:skyblue;
 }
 .border {
     border: 5px solid rgba(70, 77, 92, 0.3);
