@@ -12,8 +12,15 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgba(238, 241, 241, 0.897);
     text-shadow: 2px 2px rgb(66, 63, 68);
-    background-color: rgba(69, 83, 95, 0.4);
+    background-color: rgba(219, 241, 255, 0.4);
     box-shadow: 3px 3px rgba(49, 49, 49, 0.692);
+}
+.logo {
+    padding: 20px;
+    float: left;
+}
+.apex {
+    float: left;
 }
 .sticky {
     position: -webkit-sticky;
@@ -28,7 +35,7 @@ button {
     width: 150%;
     height: 55px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     color: rgba(255, 250, 250, 0.85);
     text-shadow: 2px 3px rgb(66, 63, 68);
     box-shadow: 3px 3px rgb(49, 49, 49);
@@ -98,6 +105,7 @@ aside {
     margin: 5px;
     margin-right: 10px;
     float: right;
+    visibility: hidden;
 }
 section {
     width: 50%;
@@ -117,7 +125,7 @@ article {
 }
 footer {
     width: 97%;
-    height: 20%;
+    height: 150px;
     margin: 10px;
     clear: both;
 }
@@ -126,6 +134,19 @@ p {
     font-family: cursive;
 }
 .map {
+    padding: 20px;
+    padding-left: 25%;
+    float: left;
+}
+.fb-logo {
+    padding: 20px;
+    float: left;
+}
+.insta-logo {
+    padding: 20px;
+    float: left;
+}
+.twitter-logo {
     padding: 20px;
     float: left;
 }
