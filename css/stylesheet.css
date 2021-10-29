@@ -10,9 +10,9 @@ body {
     border: 5px solid rgba(70, 77, 92, 0.3);
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgba(39, 118, 212, 0.84);
-    text-shadow: 2px 2px rgb(66, 63, 68);
-    background-color: rgba(219, 241, 255, 0.4);
+    color: rgba(0, 0, 255, 0.55);
+    text-shadow: 2px 2px rgba(94, 91, 97, 0.44);
+    background-color: rgba(199, 229, 247, 0.63);
     box-shadow: 3px 3px rgba(49, 49, 49, 0.692);
 }
 .logo {
@@ -29,7 +29,7 @@ body {
     text-align: center;
 }
 button {
-    background-color: rgba(78, 113, 226, 0.664);
+    background-color: rgba(39, 118, 212, 0.664);
     border: 2px solid rgba(61, 80, 143, 0.3);
     border-radius: 10px;
     width: 150%;
@@ -44,7 +44,8 @@ h1 {
     font-size: 55px;
 }
 h3, h4 {
-    font-size: 20px;
+    font-size: 30px;
+    text-shadow: 1px 1px rgba(94, 91, 97, 0.44);
 }
 header {
     width: 97%;
@@ -109,7 +110,7 @@ aside {
 }
 section {
     width: 50%;
-    height: 270px;
+    height: 570px;
     margin: 5px;
     margin-left: 10px;
     font-size: 60;
@@ -125,17 +126,23 @@ article {
 }
 footer {
     width: 97%;
-    height: 150px;
+    height: 100px;
     margin: 10px;
     clear: both;
 }
 p {
-    font-size: 16;
-    font-family: cursive;
+    padding: 20px;
+    font-size: 20;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.712);
+    text-shadow: none;
+    line-height: 1.5;
+    background-color: rgba(219, 241, 255, 0.4);
 }
 .map {
     padding: 20px;
-    padding-left: 25%;
+    padding-left: 30%;
     float: left;
 }
 .fb-logo {
