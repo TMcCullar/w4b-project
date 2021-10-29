@@ -1,6 +1,6 @@
 body {
     background-size: cover;
-    background-color: rgb(199, 207, 224);
+    background-color: rgba(199, 229, 247, 0.63);
 }
 .sticky {
     position: -webkit-sticky;
