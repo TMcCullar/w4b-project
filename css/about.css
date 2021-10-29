@@ -1,6 +1,77 @@
 body {
     background-size: cover;
-    background-color: rgb(126, 165, 248);
+    background-color: rgb(199, 207, 224);
+}
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+.border {
+    border: 5px solid rgba(70, 77, 92, 0.3);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(0, 0, 255, 0.55);
+    text-shadow: 2px 2px rgba(94, 91, 97, 0.44);
+    background-color: rgba(109, 112, 114, 0.63);
+    box-shadow: 3px 3px rgba(49, 49, 49, 0.692);
+}
+nav {
+    width: 97%;
+    height: 100px;
+    margin: 10px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+ul {
+    list-style-type: none;
+    width: 95%;
+    margin: 0;
+    padding: 15px;
+    padding-left: 12%;
+    padding-right: 5%;
+    overflow: hidden;
+    float: left;
+}
+li {
+    float: left;
+    font-family: fantasy;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(255, 250, 250, 0.85);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+button {
+    background-color: rgba(39, 118, 212, 0.664);
+    border: 2px solid rgba(61, 80, 143, 0.3);
+    border-radius: 10px;
+    width: 150%;
+    height: 55px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: rgba(255, 250, 250, 0.85);
+    text-shadow: 2px 3px rgb(66, 63, 68);
+    box-shadow: 3px 3px rgb(49, 49, 49);
+}
+a:link {
+    color:rgba(255, 250, 250, 0.85);
+}
+a:visited {
+    color: rgba(62, 52, 87, 0.85);
+}
+a button:visited {
+    color: rgba(62, 52, 87, 0.85);
+}
+a:active {
+    color: rgba(255, 250, 250, 0.85);
+}
+a:hover {
+    color: rgb(101, 10, 119);
+}
+a button:hover {
+    color: rgb(101, 10, 119);
 }
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
